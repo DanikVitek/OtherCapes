@@ -1,0 +1,15 @@
+name: OtherCapes
+version: '${project.version}'
+main: com.danikvitek.othercapes.Main
+api-version: 1.16
+authors: [ Danik_Vitek ]
+description: You can now wear any Mojang cape
+
+command:
+  cape:
+    permissions: othercapes.command.cape
+    usage: "/cape <title>"
+
+permissions:
+  othercapes.command.cape:
+    default: op
